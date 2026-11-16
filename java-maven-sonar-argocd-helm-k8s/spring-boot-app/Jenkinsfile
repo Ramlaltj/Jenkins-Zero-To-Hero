@@ -235,4 +235,8 @@ EOF
             echo 'SUCCESS: CI/CD pipeline completed successfully!'
         }
 
-        failure
+        failure {
+            echo 'FAILURE: Check Jenkins Console Output for details.'
+        }
+    }
+}
